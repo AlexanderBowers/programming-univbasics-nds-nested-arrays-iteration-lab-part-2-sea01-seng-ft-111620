@@ -8,6 +8,5 @@ def find_min_in_nested_arrays(src)
       smallest_array << smallest[0]
     end
   end
-
   smallest_array
 end
