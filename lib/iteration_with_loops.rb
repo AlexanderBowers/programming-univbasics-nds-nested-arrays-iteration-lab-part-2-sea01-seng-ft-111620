@@ -8,7 +8,7 @@ def find_min_in_nested_arrays(src)
   counter = 0
   until counter == src.length
   sorted =  src[counter].sort
-    smallest_array << src[counter][0]
+    smallest_array << sorted[0]
     counter += 1
   end
   binding.pry
