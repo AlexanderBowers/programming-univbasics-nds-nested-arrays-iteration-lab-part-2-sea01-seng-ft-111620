@@ -1,4 +1,3 @@
-require 'pry'
 def find_min_in_nested_arrays(src)
   # src will be an array of arrays of integers
   # Produce a new Array that contains the smallest number of each of the nested arrays
@@ -11,6 +10,6 @@ def find_min_in_nested_arrays(src)
     smallest_array << sorted[0]
     counter += 1
   end
-  #binding.pry
+
   smallest_array
 end
