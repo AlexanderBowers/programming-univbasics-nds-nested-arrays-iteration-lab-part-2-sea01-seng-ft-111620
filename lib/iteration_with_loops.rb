@@ -6,5 +6,5 @@ def find_min_in_nested_arrays(src)
     small.sort
     smallest_array << small[0]
   end
-        
+
 end
