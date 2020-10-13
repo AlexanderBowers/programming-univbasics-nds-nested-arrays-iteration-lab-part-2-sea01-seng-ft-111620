@@ -4,9 +4,7 @@ def find_min_in_nested_arrays(src)
   smallest_array = []
   src.each do |small|
     small.sort
-    small.each do |smallest|
-      smallest_array << smallest[0]
-    end
+    smallest_array << small[0]
   end
   smallest_array
 end
